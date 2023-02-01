@@ -1,0 +1,7 @@
+.place {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    display: grid;
+    grid-template-columns: repeat(2, 2);
+    outline: 1px solid red;
+}

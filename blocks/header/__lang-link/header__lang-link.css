@@ -6,4 +6,8 @@
     text-align: right;
     display: flex;
     align-items: center;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    gap: 16px;
 }

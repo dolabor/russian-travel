@@ -6,5 +6,35 @@
     left:0;
     right:0;
     bottom:0;
-    z-index: 2;
+    z-index: 3;
+}
+
+
+@media(min-width: 320px) {
+    .cover {
+        min-width: 320px;
+        min-height: 200px;
+    }
+}
+
+@media(min-width: 768px) {
+    .cover {
+        min-width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .cover {
+        min-width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media(min-width: 1280px) {
+    .cover {
+        min-width: 1184px;
+        min-height: 740px;
+        max-width: auto;
+    }
 }

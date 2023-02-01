@@ -1,2 +1,11 @@
 .place__website {
+  grid-area: place__website;
+  align-self: end;
+  padding: 0;
+}
+
+@media (min-width: 320px) {
+  .place__website {
+    padding: 0 0 0 16px;
+  }
 }

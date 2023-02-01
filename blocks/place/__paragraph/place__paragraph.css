@@ -1,8 +1,19 @@
 .place__paragraph {
-    font-weight: 400;
-    font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+@media (min-width: 320px) {
+  .place__paragraph {
+    font-size: 16px;
     line-height: 163%;
-    color: #FFFFFF;
-    grid-row: 3;
-    grid-column: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+  }
 }

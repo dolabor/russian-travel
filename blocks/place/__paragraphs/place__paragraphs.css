@@ -1,4 +1,18 @@
 .place__paragraphs {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  grid-area: place__paragraphs;
+}
+
+@media (min-width: 320px) {
+  .place__paragraphs {
+    gap: 25px;
+    padding: 0 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__paragraphs {
+    gap: 26px;
+  }
 }

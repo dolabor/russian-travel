@@ -1,8 +1,39 @@
 .lead {
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 320px) {
+  .lead {
+    min-width: 320px;
+    min-height: 406px;
+    padding: 48px 0 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .lead {
+    min-width: 768px;
+    min-height: 862px;
+    padding: 48px 0 0 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead {
+    min-width: 928px;
+    min-height: 962px;
+    padding: 48px 48px 0 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead {
+    min-width: 984px;
+    min-height: 1005px;
     padding: 56px 148px 0 148px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  }
 }

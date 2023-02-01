@@ -1,13 +1,35 @@
 .lead__subtitle {
-    width: 640px;
-    height: 72px;
-    font-weight: 400;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+@media (min-width: 320px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 16px 40px 16px;
+    min-width: 288px;
+    min-height: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lead__subtitle {
     font-size: 30px;
     line-height: 36px;
-    text-align: center;
-    color: #FFFFFF;
+    padding: 0 0 56px 0;
+    min-width: 640px;
+    min-height: 72px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .lead__subtitle {
     padding: 0 0 64px 0;
-    margin: 0;
-    margin-block-start: 0;
-    margin-block-end: 0;
+  }
 }

@@ -27,6 +27,11 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .lead__subtitle {
+    max-width: 640px;
+  }
+}
 
 @media (min-width: 1280px) {
   .lead__subtitle {

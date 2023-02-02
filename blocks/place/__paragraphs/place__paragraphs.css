@@ -10,6 +10,11 @@
     padding: 0 16px;
   }
 }
+@media (min-width: 768px) {
+  .place__paragraphs {
+    padding: 0;
+  }
+}
 
 @media (min-width: 1024px) {
   .place__paragraphs {

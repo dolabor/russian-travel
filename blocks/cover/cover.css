@@ -17,7 +17,7 @@
   .cover {
     min-width: 768px;
     min-height: 480px;
-    padding: 90px 0 88px 0;
+    padding: 17px 0 88px 0;
   }
 }
 
@@ -25,7 +25,7 @@
   .cover {
     min-width: 1024px;
     min-height: 640px;
-    padding: 92px 0;
+    padding: 12px 0;
   }
 }
 
@@ -33,6 +33,6 @@
   .cover {
     min-width: 1184px;
     min-height: 740px;
-    padding: 92px 48px;
+    padding: 12px 48px 96px 48px;
   }
 }

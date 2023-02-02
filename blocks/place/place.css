@@ -2,11 +2,6 @@
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, max-content));
-  grid-template-rows: repeat(2, minmax(min-content, max-content));
-  grid-template-areas:
-    "place__title place__website"
-    "place__image place__paragraphs";
 }
 
 @media (min-width: 320px) {
@@ -14,10 +9,10 @@
     grid-template-columns: repeat(1, minmax(min-content, max-content));
     grid-template-rows: repeat(4, minmax(min-content, max-content));
     grid-template-areas:
-    "place__title"
-    "place__website"
-    "place__image"
-    "place__paragraphs";
+      "place__title"
+      "place__website"
+      "place__image"
+      "place__paragraphs";
     min-width: 320px;
     padding: 0 0 50px 0;
     column-gap: 32px;
@@ -27,6 +22,11 @@
 
 @media (min-width: 768px) {
   .place {
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-areas:
+      "place__title place__website"
+      "place__image place__paragraphs";
     min-width: 720px;
     padding: 0 0 73px 0;
     column-gap: 28px;

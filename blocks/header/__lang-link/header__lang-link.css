@@ -3,11 +3,8 @@
   font-style: normal;
   font-weight: 400;
   text-align: right;
-  display: flex;
-  align-items: center;
   text-decoration: none;
   color: #FFFFFF;
-  gap: 18px;
 }
 
 @media (min-width: 320px) {

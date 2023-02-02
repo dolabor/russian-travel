@@ -22,7 +22,7 @@
 
 @media (min-width: 768px) {
   .place {
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-columns: 45% minmax(min-content, max-content);
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     grid-template-areas:
       "place__title place__website"

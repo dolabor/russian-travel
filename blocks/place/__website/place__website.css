@@ -1,17 +1,15 @@
 .place__website {
   grid-area: place__website;
   align-self: end;
+  display: flex;
+  flex-direction: column;
   padding: 0;
+  gap: 12px;
+
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .place__website {
     padding: 0 0 0 16px;
-  }
-}
-
-@media (min-width: 768px) {
-  .place__website {
-    padding: 0;
   }
 }

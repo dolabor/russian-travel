@@ -1,5 +1,6 @@
 .header__logo {
-  padding: 0;
+  display: block;
+  object-fit: cover;
 }
 
 @media (min-width: 320px) {

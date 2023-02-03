@@ -1,34 +1,37 @@
 .place__image {
   width: 100%;
   grid-area: place__image;
+  object-fit: cover;
+  display: block;
+  max-width: inherit;
+  max-height: inherit;
 }
 
 @media (min-width: 320px) {
   .place__image {
-    max-width: 320px;
-    max-height: 320px;
-
+    min-width: 320px;
+    min-height: 320px;
   }
 }
 
 @media (min-width: 768px) {
   .place__image {
     max-width: 340px;
-    max-height: 340px;
+    /*max-height: 340px;*/
   }
 }
 
 @media (min-width: 1024px) {
   .place__image {
-    max-width: 440px;
-    max-height: 440px;
+    min-width: 440px;
+    min-height: 440px;
 
   }
 }
 
 @media (min-width: 1280px) {
   .place__image {
-    max-width: 460px;
-    max-height: 460px;
+    min-width: 460px;
+    min-height: 460px;
   }
 }

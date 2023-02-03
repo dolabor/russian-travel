@@ -1,5 +1,8 @@
 .lead__image {
   width: 100%;
+  object-fit: cover;
+  display: block;
+  max-width: inherit;
 }
 
 @media (min-width: 320px) {

@@ -2,6 +2,7 @@
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   display: grid;
+  max-width: inherit;
 }
 
 @media (min-width: 320px) {
@@ -14,7 +15,6 @@
       "place__image"
       "place__paragraphs";
     min-width: 320px;
-    padding: 0 0 50px 0;
     column-gap: 32px;
     row-gap: 32px;
   }
@@ -22,13 +22,12 @@
 
 @media (min-width: 768px) {
   .place {
-    grid-template-columns: 45% minmax(min-content, max-content);
+    grid-template-columns: 47% auto;
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     grid-template-areas:
       "place__title place__website"
       "place__image place__paragraphs";
     min-width: 720px;
-    padding: 0 0 73px 0;
     column-gap: 28px;
     row-gap: 48px;
   }
@@ -37,7 +36,6 @@
 @media (min-width: 1024px) {
   .place {
     min-width: 928px;
-    padding: 0 0 80px 0;
     column-gap: 32px;
   }
 }

@@ -4,12 +4,12 @@
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
+  max-width: inherit;
 }
 
 @media (min-width: 320px) {
   .intro {
     min-width: 288px;
-    min-height: 754px;
     padding: 64px 16px 0 16px;
   }
 }
@@ -17,7 +17,6 @@
 @media (min-width: 768px) {
   .intro {
     min-width: 720px;
-    min-height: 429px;
     padding: 88px 24px 0 24px;
   }
 }

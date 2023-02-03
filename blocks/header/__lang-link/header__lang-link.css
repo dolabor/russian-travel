@@ -5,6 +5,12 @@
   text-align: right;
   text-decoration: none;
   color: #FFFFFF;
+  transition: opacity 1s;
+  cursor: pointer;
+}
+
+.header__lang-link :hover {
+  opacity: 0.8;
 }
 
 @media (min-width: 320px) {

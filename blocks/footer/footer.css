@@ -6,12 +6,12 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 48px;
+  max-width: inherit;
 }
 
 @media (min-width: 320px) {
   .footer {
     min-width: 186px;
-    min-height: 310px;
     padding: 64px 118px 24px 16px;
   }
 }
@@ -19,7 +19,6 @@
 @media (min-width: 768px) {
   .footer {
     min-width: 720px;
-    min-height: 18px;
     padding: 88px 24px 24px 24px;
   }
 }
@@ -27,7 +26,6 @@
 @media (min-width: 1024px) {
   .footer {
     min-width: 928px;
-    min-height: 18px;
     padding: 93px 48px 24px 48px;
   }
 }
@@ -35,7 +33,6 @@
 @media (min-width: 1280px) {
   .footer {
     min-width: 1184px;
-    min-height: 18px;
-    padding: 0 48px 24px;
+    padding: 92px 48px 24px 48px;
   }
 }

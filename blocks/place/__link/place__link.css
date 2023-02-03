@@ -4,6 +4,9 @@
   font-size: 18px;
   line-height: 22px;
   padding: 0;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: opacity 1s;
 }
 
 .place__link :hover {

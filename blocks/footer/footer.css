@@ -9,10 +9,11 @@
   max-width: inherit;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .footer {
     min-width: 186px;
     padding: 64px 118px 24px 16px;
+    flex-direction: column;
   }
 }
 
